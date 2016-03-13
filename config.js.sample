@@ -1,0 +1,20 @@
+'use strict';
+
+module.exports = {
+  smtp: {
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true, // use SSL
+    auth: {
+      user: 'user@gmail.com',
+      pass: 'hardpass'
+    }
+  },
+  slack: {
+    token: 'xoxb-66666666666-q0q0q00q0q0q0q00q0q0q00q'
+  },
+  notifying: {
+    email: 'admin@garantpark.com',
+    slackChannel: 'channel'
+  }
+};

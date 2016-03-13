@@ -1,0 +1,24 @@
+{
+  "name": "cartularium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "crontab": "^1.1.2",
+    "datejs": "^1.0.0-rc3",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.6",
+    "nodemailer": "^2.3.0",
+    "request": "^2.69.0",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4",
+    "whois": "^2.1.5"
+  }
+}
